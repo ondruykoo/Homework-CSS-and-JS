@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+body{
+    width: 100%;
+    max-width: 1366px;
+    font-size: 100%;
+	background-image: url("Photo\\Background.png");
+    background-repeat:no-repeat;
+}
+.content{
+    width: 100%;
+    max-width: 1048px;
+    height: 100%;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Verdana', serif;
+}
+.header{
+    margin-top: 49px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 46px;
+    float: left;
+}
+.logo{
+    float: left;
+}
+.right-logo{
+    margin-top: -30px;
+    margin-left: 729px;
+    float:right;
+}
+.left-logo{
+    padding-left: 13px;
+    float:left;
+}
+.logo1{
+    font-size: 22px;
+    font-weight:900;
+}
+.logo2{
+    font-size: 13px;
+    font-weight:550;
+    padding-top: 3px;
+}
+.info-text{
+    font-size: 13px;
+    padding-bottom: 2px;
+    float: right;
+}
+.info-number{
+    font-size: 13px;
+    margin-right: 0px;
+    padding-left: 72px;
+    padding-top: 2px;
+    float: right;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.photos{
+    margin-top: 0px;
+    padding-top: 96px;
+}
+.photos img {
+    width: 100%;
+    border: 2px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #ffff 0%, #0000 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #ffff 0%, #0000 100%);
+	border-image: linear-gradient(to bottom, #ffff 0%, #0000  100%);
+	border-image-slice: 1;
+} 
+.photos figure {
+    width: 307px;
+    height: 200px;
+    display: inline-block;
+}
+.photos figure:first-child {
+    width: 307px;
+    height: 200px;
+    margin-right: 63px;
+    display: inline-block;
+}
+.photos figure:last-child {
+    width: 307px;
+    height: 200px;
+    margin-left: 63px;
+    display: inline-block;
+}
+.photos figcaption {
+    font-size: 13px;
+    font-style: normal;
+    color: #ffffff;
+}
+.photos p{
+    padding-top: 20px;
+}
+.photos .ViewDetails{
+    font-size: 10px;
+    margin-right: 20px;
+    float: right;
+}
+.photos .from{
+    font-size: 7px;
+    margin-left: 20px;
+    float: left;
+}
+.photos .price{
+    font-size: 15px;
+    margin-left: -20px;
+    float: left;
+}
+.copiright{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 7px;
+    color:#ffffff;
+}
+svg{
+    height: 47px;
+    width: 44px;
+    float: left;
+}
+a svg:hover #logo { 
+  fill: #f26522;
+}
+.left-logo .logoh:hover{
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+  color: #f26522;
+}
+a svg #logo { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+figcaption {
+    width: 311px;
+    height: 60px;
+    bottom: 0px;
+    left: 0;
+    transition: .4s;
+    text-align: center;
+    position: relative;
+    color: #FFF;
+}
+.photo-text{
+    margin-top: -40px;
+    float: left;
+}
+.photo-info{
+    opacity: 0;
+    float: left;
+}
+figure a:hover{
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    color: #f26522;
+}
+figure:hover .photo-info{
+    bottom: 60px;
+    opacity: 1;
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 400ms;
+    -webkit-transition-timing-function: ease-in-out;
+    background: #f26522;
+}
